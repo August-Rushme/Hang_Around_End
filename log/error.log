@@ -1,0 +1,104 @@
+2021-07-01 13:45:52.195 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-07-01 15:31:24.713 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:32:40.833 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:35:06.431 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:35:22.326 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.domain.TbUserExample' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.domain.TbUserExample' in your configuration.
+
+2021-07-01 15:35:37.285 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:41:52.249 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+

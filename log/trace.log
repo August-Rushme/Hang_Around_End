@@ -1,0 +1,791 @@
+2021-07-01 13:45:51.227 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10000 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 13:45:51.229 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 13:45:51.753 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2021-07-01 13:45:51.759 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-01 13:45:51.798 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 13:45:51.799 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 13:45:51.876 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 13:45:51.877 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 618 ms
+2021-07-01 13:45:51.997 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:45:52.115 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2021-07-01 13:45:52.164 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-07-01 13:45:52.164 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:45:52.167 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2021-07-01 13:45:52.168 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 13:45:52.174 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2021-07-01 13:45:52.174 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2021-07-01 13:45:52.181 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 13:45:52.195 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-07-01 13:47:22.758 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 9212 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 13:47:22.760 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 13:47:23.302 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 13:47:23.308 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:47:23.308 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 13:47:23.309 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 13:47:23.379 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 13:47:23.379 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 588 ms
+2021-07-01 13:47:23.506 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:47:23.611 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:47:23.625 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 13:47:23.633 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.204 seconds (JVM running for 1.932)
+2021-07-01 13:50:45.123 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 5320 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 13:50:45.128 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 13:50:45.992 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 13:50:46.000 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:50:46.000 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 13:50:46.001 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 13:50:46.069 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 13:50:46.070 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 893 ms
+2021-07-01 13:50:46.182 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:50:46.277 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:50:46.290 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 13:50:46.297 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.56 seconds (JVM running for 2.4)
+2021-07-01 13:52:22.776 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 1132 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 13:52:22.779 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 13:52:23.433 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 13:52:23.440 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:52:23.441 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 13:52:23.441 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 13:52:23.511 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 13:52:23.511 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 696 ms
+2021-07-01 13:52:23.620 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:52:23.715 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:52:23.729 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 13:52:23.735 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.34 seconds (JVM running for 2.167)
+2021-07-01 13:54:06.375 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 15896 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 13:54:06.377 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 13:54:07.056 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 13:54:07.063 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:54:07.064 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 13:54:07.064 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 13:54:07.131 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 13:54:07.131 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 724 ms
+2021-07-01 13:54:07.239 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:54:07.335 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:54:07.348 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 13:54:07.355 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.307 seconds (JVM running for 2.149)
+2021-07-01 13:56:11.148 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 15884 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 13:56:11.150 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 13:56:11.786 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 13:56:11.793 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:56:11.793 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 13:56:11.794 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 13:56:11.863 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 13:56:11.863 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 683 ms
+2021-07-01 13:56:11.979 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 13:56:12.081 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 13:56:12.094 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 13:56:12.100 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.298 seconds (JVM running for 2.141)
+2021-07-01 14:01:49.292 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 12408 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:01:49.294 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:01:49.849 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:01:49.855 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:01:49.856 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:01:49.856 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:01:49.913 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:01:49.913 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 591 ms
+2021-07-01 14:01:50.016 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:01:50.114 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:01:50.129 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:01:50.137 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.161 seconds (JVM running for 1.989)
+2021-07-01 14:02:59.001 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 15216 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:02:59.003 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:02:59.502 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:02:59.508 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:02:59.508 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:02:59.508 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:02:59.586 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:02:59.587 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 554 ms
+2021-07-01 14:02:59.686 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:02:59.778 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:02:59.791 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:02:59.798 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.086 seconds (JVM running for 1.831)
+2021-07-01 14:02:59.800 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m 启动成功！！
+2021-07-01 14:02:59.800 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m 地址: 	http://127.0.0.1:8081
+2021-07-01 14:03:30.989 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 14984 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:03:30.992 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:03:31.500 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:03:31.506 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:03:31.507 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:03:31.507 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:03:31.589 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:03:31.589 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 569 ms
+2021-07-01 14:03:31.689 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:03:31.780 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:03:31.793 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:03:31.800 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.104 seconds (JVM running for 1.865)
+2021-07-01 14:03:31.801 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:03:31.802 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:05:07.651 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 5612 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:05:07.654 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:05:08.153 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:05:08.160 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:05:08.161 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:05:08.161 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:05:08.213 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:05:08.213 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 533 ms
+2021-07-01 14:05:08.319 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:05:08.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:05:08.434 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:05:08.441 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.089 seconds (JVM running for 1.812)
+2021-07-01 14:05:08.443 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:05:08.444 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:05:34.650 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 15808 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:05:34.653 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:05:35.304 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:05:35.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:05:35.311 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:05:35.311 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:05:35.363 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:05:35.363 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 663 ms
+2021-07-01 14:05:35.472 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:05:35.568 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:05:35.582 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:05:35.588 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.266 seconds (JVM running for 2.017)
+2021-07-01 14:05:35.590 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:05:35.591 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:10:00.673 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 9508 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:10:00.675 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:10:01.173 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:10:01.179 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:10:01.180 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:10:01.180 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:10:01.231 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:10:01.231 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 530 ms
+2021-07-01 14:10:01.337 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:10:01.437 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:10:01.451 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:10:01.457 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.085 seconds (JVM running for 1.761)
+2021-07-01 14:10:01.459 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:10:01.460 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:10:15.306 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 12136 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:10:15.308 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:10:15.865 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:10:15.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:10:15.873 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:10:15.873 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:10:15.930 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:10:15.931 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 588 ms
+2021-07-01 14:10:16.042 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:10:16.135 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:10:16.148 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:10:16.154 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.149 seconds (JVM running for 1.849)
+2021-07-01 14:10:16.156 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:10:16.156 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:12:25.543 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 2760 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:12:25.545 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:12:26.120 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:12:26.127 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:12:26.127 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:12:26.128 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:12:26.184 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:12:26.185 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 604 ms
+2021-07-01 14:12:26.296 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:12:26.394 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:12:26.408 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:12:26.415 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.172 seconds (JVM running for 1.887)
+2021-07-01 14:12:26.417 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:12:26.417 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:14:54.266 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 14348 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:14:54.269 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:14:54.916 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:14:54.925 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:14:54.926 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:14:54.927 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:14:55.022 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:14:55.022 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 719 ms
+2021-07-01 14:14:55.139 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:14:55.234 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:14:55.246 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:14:55.253 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.296 seconds (JVM running for 2.01)
+2021-07-01 14:14:55.254 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:14:55.255 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:23:52.159 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:23:52.163 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:23:52.203 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-01 14:23:52.204 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-01 14:23:52.760 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:23:52.766 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:23:52.766 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:23:52.766 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:23:52.817 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:23:52.817 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 612 ms
+2021-07-01 14:23:52.919 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:23:53.016 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:23:53.024 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:23:53.039 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:23:53.046 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.245 seconds (JVM running for 2.053)
+2021-07-01 14:23:53.048 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:23:53.048 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:24:35.319 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:24:35.406 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:24:35.407 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:24:35.556 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:24:35.557 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:24:35.557 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:24:35.557 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:24:35.572 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:24:35.573 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 164 ms
+2021-07-01 14:24:35.603 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:24:35.627 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:24:35.631 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:24:35.633 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:24:35.636 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.255 seconds (JVM running for 44.644)
+2021-07-01 14:24:35.638 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:24:35.638 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:24:35.638 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:25:40.157 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:25:40.241 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:25:40.242 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:25:40.372 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:25:40.372 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:25:40.373 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:25:40.373 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:25:40.390 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:25:40.390 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 146 ms
+2021-07-01 14:25:40.414 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:25:40.434 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:25:40.437 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:25:40.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:25:40.442 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.222 seconds (JVM running for 109.449)
+2021-07-01 14:25:40.443 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:25:40.443 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:25:40.443 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:27:43.014 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:27:43.097 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:27:43.097 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:27:43.212 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:27:43.213 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:27:43.213 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:27:43.213 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:27:43.238 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:27:43.239 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 141 ms
+2021-07-01 14:27:43.259 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:27:43.279 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:27:43.283 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:27:43.285 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:27:43.287 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.211 seconds (JVM running for 232.295)
+2021-07-01 14:27:43.288 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:27:43.289 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:27:43.289 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:31:36.463 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:31:36.541 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:31:36.541 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:31:36.653 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:31:36.653 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:31:36.653 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:31:36.654 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:31:36.668 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:31:36.668 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 125 ms
+2021-07-01 14:31:36.691 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:31:36.719 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:31:36.724 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:31:36.726 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:31:36.730 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.208 seconds (JVM running for 465.737)
+2021-07-01 14:31:36.730 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:31:36.731 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:31:36.731 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:31:38.450 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:31:38.491 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:31:38.492 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:31:38.574 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:31:38.575 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:31:38.575 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:31:38.575 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:31:38.585 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:31:38.586 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 93 ms
+2021-07-01 14:31:38.603 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:31:38.616 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:31:38.619 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:31:38.621 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:31:38.623 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.15 seconds (JVM running for 467.631)
+2021-07-01 14:31:38.624 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:31:38.624 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:31:38.624 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:45:11.595 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:45:11.701 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:45:11.701 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:45:11.826 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:45:11.826 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:45:11.827 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:45:11.827 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:45:11.838 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:45:11.838 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 135 ms
+2021-07-01 14:45:11.855 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:45:11.870 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:45:11.873 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:45:11.875 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:45:11.877 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.197 seconds (JVM running for 1280.884)
+2021-07-01 14:45:11.878 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:45:11.878 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:45:11.878 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 14:59:43.702 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:59:43.771 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 14:59:43.772 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 14:59:43.934 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 14:59:43.935 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:59:43.935 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 14:59:43.936 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 14:59:43.951 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 14:59:43.952 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 179 ms
+2021-07-01 14:59:43.976 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 14:59:43.998 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 14:59:44.002 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 14:59:44.004 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 14:59:44.008 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.262 seconds (JVM running for 2153.015)
+2021-07-01 14:59:44.010 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 14:59:44.010 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 14:59:44.010 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:13:52.354 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:13:52.436 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:13:52.436 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:13:52.535 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:13:52.535 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:13:52.535 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:13:52.536 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:13:52.598 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:13:52.598 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 161 ms
+2021-07-01 15:13:52.614 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:13:52.627 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:13:52.630 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:13:52.632 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:13:52.635 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.216 seconds (JVM running for 3001.642)
+2021-07-01 15:13:52.635 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:13:52.636 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:13:52.636 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:17:55.119 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:17:55.173 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 7920 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:17:55.174 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:17:55.280 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:17:55.281 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:17:55.281 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:17:55.281 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:17:55.297 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:17:55.298 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 123 ms
+2021-07-01 15:17:55.315 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:17:55.331 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:17:55.334 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:17:55.336 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:17:55.339 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.183 seconds (JVM running for 3244.346)
+2021-07-01 15:17:55.340 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:17:55.340 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:17:55.341 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:18:36.266 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:18:36.269 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:18:36.299 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-01 15:18:36.299 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-01 15:18:36.794 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:18:37.053 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:18:37.058 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:18:37.059 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:18:37.059 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:18:37.117 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:18:37.117 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 817 ms
+2021-07-01 15:18:37.224 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:18:37.423 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:18:37.434 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:18:37.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:18:37.453 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 1.497 seconds (JVM running for 2.27)
+2021-07-01 15:18:37.455 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:18:37.456 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:23:16.197 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:23:16.274 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:23:16.274 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:23:16.393 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:23:16.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:23:16.440 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:23:16.440 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:23:16.441 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:23:16.469 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:23:16.469 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 193 ms
+2021-07-01 15:23:16.499 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:23:16.546 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:23:16.551 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:23:16.553 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:23:16.557 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.304 seconds (JVM running for 281.373)
+2021-07-01 15:23:16.558 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:23:16.559 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:23:16.559 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:24:45.720 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:24:45.811 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:24:45.812 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:24:45.930 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:24:45.972 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:24:45.973 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:24:45.973 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:24:45.973 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:24:45.994 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:24:45.995 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 180 ms
+2021-07-01 15:24:46.025 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:24:46.072 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:24:46.077 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:24:46.078 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:24:46.082 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.293 seconds (JVM running for 370.898)
+2021-07-01 15:24:46.083 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:24:46.083 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:24:46.083 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:25:56.013 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:25:56.115 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:25:56.115 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:25:56.221 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:25:56.264 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:25:56.264 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:25:56.264 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:25:56.265 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:25:56.277 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:25:56.277 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 161 ms
+2021-07-01 15:25:56.302 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:25:56.347 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:25:56.352 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:25:56.355 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:25:56.358 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.278 seconds (JVM running for 441.174)
+2021-07-01 15:25:56.359 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:25:56.360 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:25:56.360 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:25:58.177 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:25:58.253 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:25:58.254 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:25:58.356 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:25:58.379 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:25:58.379 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:25:58.379 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:25:58.379 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:25:58.394 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:25:58.394 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 139 ms
+2021-07-01 15:25:58.420 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:25:58.567 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:25:58.572 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:25:58.574 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:25:58.578 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.343 seconds (JVM running for 443.394)
+2021-07-01 15:25:58.579 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:25:58.579 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:25:58.579 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:26:00.731 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:26:00.815 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:26:00.815 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:26:00.916 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:26:00.941 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:26:00.942 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:26:00.943 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:26:00.943 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:26:00.960 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:26:00.960 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 143 ms
+2021-07-01 15:26:00.986 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:26:01.040 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:26:01.045 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:26:01.047 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:26:01.049 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.254 seconds (JVM running for 445.866)
+2021-07-01 15:26:01.050 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:26:01.051 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:26:01.051 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:29:41.414 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:29:41.501 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:29:41.502 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:29:41.608 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:29:41.648 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:29:41.648 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:29:41.649 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:29:41.649 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:29:41.699 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:29:41.699 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 195 ms
+2021-07-01 15:29:41.723 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:29:41.772 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:29:41.777 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:29:41.779 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:29:41.781 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.302 seconds (JVM running for 666.598)
+2021-07-01 15:29:41.782 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:29:41.782 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:29:41.782 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:31:04.788 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:31:04.855 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:31:04.856 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:31:04.979 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:31:05.022 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:31:05.023 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:31:05.023 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:31:05.023 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:31:05.080 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:31:05.081 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 224 ms
+2021-07-01 15:31:05.111 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:31:05.167 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:31:05.171 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:31:05.173 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:31:05.176 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.339 seconds (JVM running for 749.992)
+2021-07-01 15:31:05.177 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:31:05.177 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:31:05.177 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:31:24.362 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:31:24.471 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:31:24.471 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:31:24.589 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:31:24.623 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:31:24.623 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:31:24.623 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:31:24.623 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:31:24.679 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:31:24.679 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 207 ms
+2021-07-01 15:31:24.689 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.august.hang_around.mapper.TbUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-07-01 15:31:24.689 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 15:31:24.694 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 15:31:24.713 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:31:45.518 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:31:45.518 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:31:45.635 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:31:45.690 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:31:45.690 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:31:45.690 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:31:45.690 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:31:45.746 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:31:45.746 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 226 ms
+2021-07-01 15:31:45.778 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:31:45.836 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:31:45.841 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:31:45.843 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:31:45.846 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.347 seconds (JVM running for 790.663)
+2021-07-01 15:31:45.847 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:31:45.848 INFO  com.august.hang_around.HangAroundApplication      :20   [32m                  [0;39m server is running！！
+2021-07-01 15:31:45.848 INFO  com.august.hang_around.HangAroundApplication      :21   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:32:40.547 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:32:40.637 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:32:40.638 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:32:40.753 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:32:40.795 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:32:40.795 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:32:40.795 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:32:40.796 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:32:40.819 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:32:40.820 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 181 ms
+2021-07-01 15:32:40.827 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.august.hang_around.mapper.TbUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-07-01 15:32:40.828 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 15:32:40.831 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 15:32:40.833 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:35:06.250 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:35:06.250 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:35:06.349 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:35:06.390 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:35:06.390 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:35:06.391 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:35:06.391 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:35:06.419 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:35:06.419 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 168 ms
+2021-07-01 15:35:06.425 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.august.hang_around.mapper.TbUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-07-01 15:35:06.425 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 15:35:06.429 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 15:35:06.431 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:35:22.164 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:35:22.165 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:35:22.264 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:35:22.286 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:35:22.287 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:35:22.287 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:35:22.287 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:35:22.315 INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:35:22.315 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 149 ms
+2021-07-01 15:35:22.320 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.august.hang_around.domain.TbUserExample' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-07-01 15:35:22.321 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 15:35:22.324 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 15:35:22.326 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.domain.TbUserExample' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.domain.TbUserExample' in your configuration.
+
+2021-07-01 15:35:37.002 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:35:37.002 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:35:37.170 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:35:37.233 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:35:37.234 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:35:37.235 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:35:37.235 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:35:37.270 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:35:37.270 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 267 ms
+2021-07-01 15:35:37.278 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.august.hang_around.mapper.TbUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-07-01 15:35:37.278 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 15:35:37.281 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 15:35:37.285 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:41:52.022 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:41:52.022 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:41:52.146 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.august.hang_around]' package. Please check your configuration.
+2021-07-01 15:41:52.192 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:41:52.193 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:41:52.193 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:41:52.193 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:41:52.238 INFO  o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:41:52.238 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 213 ms
+2021-07-01 15:41:52.243 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.august.hang_around.mapper.TbUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-07-01 15:41:52.244 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-01 15:41:52.247 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-01 15:41:52.249 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.august.hang_around.mapper.TbUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.august.hang_around.mapper.TbUserMapper' in your configuration.
+
+2021-07-01 15:47:38.702 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:47:38.703 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:47:38.888 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:47:38.889 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:47:38.889 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:47:38.889 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:47:38.927 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:47:38.928 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 221 ms
+2021-07-01 15:47:38.985 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:47:39.017 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:47:39.024 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:47:39.026 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:47:39.029 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.353 seconds (JVM running for 1743.846)
+2021-07-01 15:47:39.031 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   [32m                  [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean,org.mybatis.spring.mapper.MapperScannerConfigurer; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperScannerConfigurer' com.august.hang_around.HangAroundApplication#MapperScannerRegistrar#0 (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-07-01 15:47:39.033 INFO  com.august.hang_around.HangAroundApplication      :24   [32m                  [0;39m server is running！！
+2021-07-01 15:47:39.033 INFO  com.august.hang_around.HangAroundApplication      :25   [32m                  [0;39m address: 	http://127.0.0.1:8081
+2021-07-01 15:48:01.092 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:48:01.230 INFO  com.august.hang_around.HangAroundApplication      :55   [32m                  [0;39m Starting HangAroundApplication using Java 1.8.0_282 on DESKTOP-B1HIM51 with PID 10904 (E:\ideaWorkSpace\Hang_Around_Project\hang_around\target\classes started by 战神 in E:\ideaWorkSpace\Hang_Around_Project)
+2021-07-01 15:48:01.230 INFO  com.august.hang_around.HangAroundApplication      :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-01 15:48:01.355 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2021-07-01 15:48:01.356 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:48:01.356 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-01 15:48:01.356 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-07-01 15:48:01.373 INFO  o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-01 15:48:01.373 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 141 ms
+2021-07-01 15:48:01.425 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-01 15:48:01.463 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-01 15:48:01.469 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2021-07-01 15:48:01.473 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2021-07-01 15:48:01.476 INFO  com.august.hang_around.HangAroundApplication      :61   [32m                  [0;39m Started HangAroundApplication in 0.263 seconds (JVM running for 1766.292)
+2021-07-01 15:48:01.477 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-01 15:48:01.478 INFO  com.august.hang_around.HangAroundApplication      :24   [32m                  [0;39m server is running！！
+2021-07-01 15:48:01.478 INFO  com.august.hang_around.HangAroundApplication      :25   [32m                  [0;39m address: 	http://127.0.0.1:8081
