@@ -2,6 +2,9 @@ package com.august.hang_around.domain;
 
 import java.util.Date;
 
+/**
+ * @author august
+ */
 public class TbUser {
     private Long id;
 
