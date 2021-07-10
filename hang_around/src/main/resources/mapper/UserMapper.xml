@@ -5,6 +5,11 @@
     <result column="id" jdbcType="BIGINT" property="id" />
     <result column="userName" jdbcType="VARCHAR" property="username" />
     <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="birthday" jdbcType="VARCHAR" property="birthday" />
+    <result column="habit" jdbcType="VARCHAR" property="habit" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="signature" jdbcType="VARCHAR" property="signature" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -65,7 +70,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, userName, `password`
+    id, userName, `password`, birthday, habit, sex, signature, avatar
   </sql>
   <select id="selectByExample" parameterType="com.august.hang_around.domain.UserExample" resultMap="BaseResultMap">
     select
@@ -88,10 +93,12 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.august.hang_around.domain.User">
-    insert into user (id, userName, `password`
-      )
-    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}
-      )
+    insert into user (id, userName, `password`, 
+      birthday, habit, sex, 
+      signature, avatar)
+    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{birthday,jdbcType=VARCHAR}, #{habit,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
+      #{signature,jdbcType=VARCHAR}, #{avatar,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.august.hang_around.domain.User">
     insert into user
@@ -105,6 +112,21 @@
       <if test="password != null">
         `password`,
       </if>
+      <if test="birthday != null">
+        birthday,
+      </if>
+      <if test="habit != null">
+        habit,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="signature != null">
+        signature,
+      </if>
+      <if test="avatar != null">
+        avatar,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -115,6 +137,21 @@
       </if>
       <if test="password != null">
         #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null">
+        #{birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="habit != null">
+        #{habit,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null">
+        #{avatar,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -136,6 +173,21 @@
       <if test="record.password != null">
         `password` = #{record.password,jdbcType=VARCHAR},
       </if>
+      <if test="record.birthday != null">
+        birthday = #{record.birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="record.habit != null">
+        habit = #{record.habit,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sex != null">
+        sex = #{record.sex,jdbcType=VARCHAR},
+      </if>
+      <if test="record.signature != null">
+        signature = #{record.signature,jdbcType=VARCHAR},
+      </if>
+      <if test="record.avatar != null">
+        avatar = #{record.avatar,jdbcType=VARCHAR},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -145,7 +197,12 @@
     update user
     set id = #{record.id,jdbcType=BIGINT},
       userName = #{record.username,jdbcType=VARCHAR},
-      `password` = #{record.password,jdbcType=VARCHAR}
+      `password` = #{record.password,jdbcType=VARCHAR},
+      birthday = #{record.birthday,jdbcType=VARCHAR},
+      habit = #{record.habit,jdbcType=VARCHAR},
+      sex = #{record.sex,jdbcType=VARCHAR},
+      signature = #{record.signature,jdbcType=VARCHAR},
+      avatar = #{record.avatar,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
