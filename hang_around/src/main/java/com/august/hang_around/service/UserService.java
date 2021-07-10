@@ -9,6 +9,7 @@ import com.august.hang_around.req.UserLoginReq;
 import com.august.hang_around.req.UserRegisterReq;
 import com.august.hang_around.req.UserResetReq;
 import com.august.hang_around.resp.UserLoginResp;
+import com.august.hang_around.resp.UserResetResp;
 import com.august.hang_around.util.CopyUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -82,7 +83,7 @@ public class UserService {
         }
     }
     /**
-     * 重置密码
+     * 修改信息
      */
     public void reset(UserResetReq req){
         UserExample userExample = new UserExample();
@@ -90,6 +91,19 @@ public class UserService {
         criteria.andIdEqualTo(req.getId());
         User user = CopyUtil.copy(req, User.class);
         userMapper.updateByExampleSelective(user,userExample);
+
+    }
+    /**
+     * 获取用户的信息
+     */
+    public List<UserResetResp> getUserInfo(UserResetReq req){
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andIdEqualTo(req.getId());
+        List<User> users = userMapper.selectByExample(userExample);
+        List<UserResetResp> userInfo = CopyUtil.copyList(users, UserResetResp.class);
+        return userInfo;
+
 
     }
 }

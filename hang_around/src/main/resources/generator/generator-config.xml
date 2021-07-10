@@ -25,10 +25,10 @@
                         connectionURL="jdbc:mysql://localhost:3306/hang_around?setUnicode&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC"
                         userId="root"
                         password="august">
-            <!--设置可以获取tables remarks信息-->
-            <property name="useInformationSchema" value="true"/>
-            <!--设置可以获取remarks信息-->
-            <property name="remarks" value="true"/>
+<!--            &lt;!&ndash;设置可以获取tables remarks信息&ndash;&gt;-->
+<!--            <property name="useInformationSchema" value="true"/>-->
+<!--            &lt;!&ndash;设置可以获取remarks信息&ndash;&gt;-->
+<!--            <property name="remarks" value="true"/>-->
         </jdbcConnection>
 
         <!-- domain类的位置 -->
@@ -43,13 +43,15 @@
         <javaClientGenerator targetProject="src\main\java"
                              targetPackage="com.august.hang_around.mapper"
                              type="XMLMAPPER"/>
-<!--        <table tableName="tb_user"/>-->
+<!--        <table tableName="goods_info"/>-->
         <!--<table tableName="demo" domainObjectName="Demo"/>-->
         <!--<table tableName="ebook"/>-->
         <!--<table tableName="category"/>-->
         <!--<table tableName="doc"/>-->
         <!--<table tableName="content"/>-->
-        <table tableName="user" domainObjectName="User" enableSelectByPrimaryKey="true" enableUpdateByPrimaryKey="true" enableDeleteByPrimaryKey="true"/>
+<!--        <table tableName="user"/>-->
+        <table tableName="u_goods"/>
+
 
     </context>
 </generatorConfiguration>
