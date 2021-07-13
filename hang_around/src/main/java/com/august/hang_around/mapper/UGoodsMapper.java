@@ -16,15 +16,21 @@ public interface UGoodsMapper {
 
     int insertSelective(UGoods record);
 
+    List<UGoods> selectByExampleWithBLOBs(UGoodsExample example);
+
     List<UGoods> selectByExample(UGoodsExample example);
 
     UGoods selectByPrimaryKey(Long gid);
 
     int updateByExampleSelective(@Param("record") UGoods record, @Param("example") UGoodsExample example);
 
+    int updateByExampleWithBLOBs(@Param("record") UGoods record, @Param("example") UGoodsExample example);
+
     int updateByExample(@Param("record") UGoods record, @Param("example") UGoodsExample example);
 
     int updateByPrimaryKeySelective(UGoods record);
+
+    int updateByPrimaryKeyWithBLOBs(UGoods record);
 
     int updateByPrimaryKey(UGoods record);
 }

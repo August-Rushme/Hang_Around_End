@@ -4,14 +4,23 @@ package com.august.hang_around.req;
  * @author august
  */
 public class GoodsInfoReq extends PageReq {
-private String id;
+private Long id;
+private Long uid;
 private String query;
 
-    public String getId() {
+    public Long getUid() {
+        return uid;
+    }
+
+    public void setUid(Long uid) {
+        this.uid = uid;
+    }
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -28,7 +37,8 @@ private String query;
     @Override
     public String toString() {
         return "GoodsInfoReq{" +
-                "id='" + id + '\'' +
+                "id=" + id +
+                ", uid=" + uid +
                 ", query='" + query + '\'' +
                 '}';
     }

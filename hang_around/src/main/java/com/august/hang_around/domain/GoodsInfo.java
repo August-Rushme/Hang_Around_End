@@ -3,7 +3,7 @@ package com.august.hang_around.domain;
 import java.math.BigDecimal;
 
 public class GoodsInfo {
-    private String id;
+    private Long id;
 
     private String name;
 
@@ -17,17 +17,19 @@ public class GoodsInfo {
 
     private String others;
 
-    private String imgSrc;
-
     private BigDecimal price;
 
     private String range;
 
-    public String getId() {
+    private Long uid;
+
+    private String imgSrc;
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -79,14 +81,6 @@ public class GoodsInfo {
         this.others = others;
     }
 
-    public String getImgSrc() {
-        return imgSrc;
-    }
-
-    public void setImgSrc(String imgSrc) {
-        this.imgSrc = imgSrc;
-    }
-
     public BigDecimal getPrice() {
         return price;
     }
@@ -103,6 +97,22 @@ public class GoodsInfo {
         this.range = range;
     }
 
+    public Long getUid() {
+        return uid;
+    }
+
+    public void setUid(Long uid) {
+        this.uid = uid;
+    }
+
+    public String getImgSrc() {
+        return imgSrc;
+    }
+
+    public void setImgSrc(String imgSrc) {
+        this.imgSrc = imgSrc;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -116,9 +126,10 @@ public class GoodsInfo {
         sb.append(", old=").append(old);
         sb.append(", use=").append(use);
         sb.append(", others=").append(others);
-        sb.append(", imgSrc=").append(imgSrc);
         sb.append(", price=").append(price);
         sb.append(", range=").append(range);
+        sb.append(", uid=").append(uid);
+        sb.append(", imgSrc=").append(imgSrc);
         sb.append("]");
         return sb.toString();
     }

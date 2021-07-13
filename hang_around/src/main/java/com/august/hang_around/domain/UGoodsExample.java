@@ -1,5 +1,6 @@
 package com.august.hang_around.domain;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -314,62 +315,52 @@ public class UGoodsExample {
             return (Criteria) this;
         }
 
-        public Criteria andGpriceEqualTo(String value) {
+        public Criteria andGpriceEqualTo(BigDecimal value) {
             addCriterion("gprice =", value, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceNotEqualTo(String value) {
+        public Criteria andGpriceNotEqualTo(BigDecimal value) {
             addCriterion("gprice <>", value, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceGreaterThan(String value) {
+        public Criteria andGpriceGreaterThan(BigDecimal value) {
             addCriterion("gprice >", value, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceGreaterThanOrEqualTo(String value) {
+        public Criteria andGpriceGreaterThanOrEqualTo(BigDecimal value) {
             addCriterion("gprice >=", value, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceLessThan(String value) {
+        public Criteria andGpriceLessThan(BigDecimal value) {
             addCriterion("gprice <", value, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceLessThanOrEqualTo(String value) {
+        public Criteria andGpriceLessThanOrEqualTo(BigDecimal value) {
             addCriterion("gprice <=", value, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceLike(String value) {
-            addCriterion("gprice like", value, "gprice");
-            return (Criteria) this;
-        }
-
-        public Criteria andGpriceNotLike(String value) {
-            addCriterion("gprice not like", value, "gprice");
-            return (Criteria) this;
-        }
-
-        public Criteria andGpriceIn(List<String> values) {
+        public Criteria andGpriceIn(List<BigDecimal> values) {
             addCriterion("gprice in", values, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceNotIn(List<String> values) {
+        public Criteria andGpriceNotIn(List<BigDecimal> values) {
             addCriterion("gprice not in", values, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceBetween(String value1, String value2) {
+        public Criteria andGpriceBetween(BigDecimal value1, BigDecimal value2) {
             addCriterion("gprice between", value1, value2, "gprice");
             return (Criteria) this;
         }
 
-        public Criteria andGpriceNotBetween(String value1, String value2) {
+        public Criteria andGpriceNotBetween(BigDecimal value1, BigDecimal value2) {
             addCriterion("gprice not between", value1, value2, "gprice");
             return (Criteria) this;
         }
@@ -444,6 +435,76 @@ public class UGoodsExample {
             return (Criteria) this;
         }
 
+        public Criteria andOtherIsNull() {
+            addCriterion("other is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherIsNotNull() {
+            addCriterion("other is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherEqualTo(String value) {
+            addCriterion("other =", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherNotEqualTo(String value) {
+            addCriterion("other <>", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherGreaterThan(String value) {
+            addCriterion("other >", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherGreaterThanOrEqualTo(String value) {
+            addCriterion("other >=", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherLessThan(String value) {
+            addCriterion("other <", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherLessThanOrEqualTo(String value) {
+            addCriterion("other <=", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherLike(String value) {
+            addCriterion("other like", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherNotLike(String value) {
+            addCriterion("other not like", value, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherIn(List<String> values) {
+            addCriterion("other in", values, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherNotIn(List<String> values) {
+            addCriterion("other not in", values, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherBetween(String value1, String value2) {
+            addCriterion("other between", value1, value2, "other");
+            return (Criteria) this;
+        }
+
+        public Criteria andOtherNotBetween(String value1, String value2) {
+            addCriterion("other not between", value1, value2, "other");
+            return (Criteria) this;
+        }
+
         public Criteria andUidIsNull() {
             addCriterion("`uid` is null");
             return (Criteria) this;
@@ -454,52 +515,52 @@ public class UGoodsExample {
             return (Criteria) this;
         }
 
-        public Criteria andUidEqualTo(Integer value) {
+        public Criteria andUidEqualTo(Long value) {
             addCriterion("`uid` =", value, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidNotEqualTo(Integer value) {
+        public Criteria andUidNotEqualTo(Long value) {
             addCriterion("`uid` <>", value, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidGreaterThan(Integer value) {
+        public Criteria andUidGreaterThan(Long value) {
             addCriterion("`uid` >", value, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidGreaterThanOrEqualTo(Integer value) {
+        public Criteria andUidGreaterThanOrEqualTo(Long value) {
             addCriterion("`uid` >=", value, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidLessThan(Integer value) {
+        public Criteria andUidLessThan(Long value) {
             addCriterion("`uid` <", value, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidLessThanOrEqualTo(Integer value) {
+        public Criteria andUidLessThanOrEqualTo(Long value) {
             addCriterion("`uid` <=", value, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidIn(List<Integer> values) {
+        public Criteria andUidIn(List<Long> values) {
             addCriterion("`uid` in", values, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidNotIn(List<Integer> values) {
+        public Criteria andUidNotIn(List<Long> values) {
             addCriterion("`uid` not in", values, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidBetween(Integer value1, Integer value2) {
+        public Criteria andUidBetween(Long value1, Long value2) {
             addCriterion("`uid` between", value1, value2, "uid");
             return (Criteria) this;
         }
 
-        public Criteria andUidNotBetween(Integer value1, Integer value2) {
+        public Criteria andUidNotBetween(Long value1, Long value2) {
             addCriterion("`uid` not between", value1, value2, "uid");
             return (Criteria) this;
         }

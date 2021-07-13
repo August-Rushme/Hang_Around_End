@@ -1,5 +1,7 @@
 package com.august.hang_around.domain;
 
+import java.math.BigDecimal;
+
 public class UGoods {
     private Long gid;
 
@@ -7,11 +9,15 @@ public class UGoods {
 
     private String gtype;
 
-    private String gprice;
+    private BigDecimal gprice;
 
     private String gstock;
 
-    private Integer uid;
+    private String other;
+
+    private Long uid;
+
+    private String imgSrc;
 
     public Long getGid() {
         return gid;
@@ -37,11 +43,11 @@ public class UGoods {
         this.gtype = gtype;
     }
 
-    public String getGprice() {
+    public BigDecimal getGprice() {
         return gprice;
     }
 
-    public void setGprice(String gprice) {
+    public void setGprice(BigDecimal gprice) {
         this.gprice = gprice;
     }
 
@@ -53,12 +59,28 @@ public class UGoods {
         this.gstock = gstock;
     }
 
-    public Integer getUid() {
+    public String getOther() {
+        return other;
+    }
+
+    public void setOther(String other) {
+        this.other = other;
+    }
+
+    public Long getUid() {
         return uid;
     }
 
-    public void setUid(Integer uid) {
+    public void setUid(Long uid) {
         this.uid = uid;
+    }
+
+    public String getImgSrc() {
+        return imgSrc;
+    }
+
+    public void setImgSrc(String imgSrc) {
+        this.imgSrc = imgSrc;
     }
 
     @Override
@@ -72,7 +94,9 @@ public class UGoods {
         sb.append(", gtype=").append(gtype);
         sb.append(", gprice=").append(gprice);
         sb.append(", gstock=").append(gstock);
+        sb.append(", other=").append(other);
         sb.append(", uid=").append(uid);
+        sb.append(", imgSrc=").append(imgSrc);
         sb.append("]");
         return sb.toString();
     }

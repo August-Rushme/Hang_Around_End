@@ -33,6 +33,7 @@ public class UserService {
 
     /**
      * 查找用户名
+     *
      * @param userName
      * @return
      */
@@ -47,6 +48,7 @@ public class UserService {
             return userList.get(0);
         }
     }
+
     /**
      * 登录
      */
@@ -68,35 +70,38 @@ public class UserService {
             }
         }
     }
+
     /**
      * 注册
      */
-    public void register(UserRegisterReq req){
+    public void register(UserRegisterReq req) {
         User user = CopyUtil.copy(req, User.class);
         User userDb = selectByUserName(req.getUsername());
-        if (ObjectUtils.isEmpty(userDb)){
+        if (ObjectUtils.isEmpty(userDb)) {
             //用户名没有，可以注册
             userMapper.insert(user);
-        }else {
+        } else {
             //用户名已经存在
             throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
         }
     }
+
     /**
      * 修改信息
      */
-    public void reset(UserResetReq req){
+    public void reset(UserResetReq req) {
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
         criteria.andIdEqualTo(req.getId());
         User user = CopyUtil.copy(req, User.class);
-        userMapper.updateByExampleSelective(user,userExample);
+        userMapper.updateByExampleSelective(user, userExample);
 
     }
+
     /**
      * 获取用户的信息
      */
-    public List<UserResetResp> getUserInfo(UserResetReq req){
+    public List<UserResetResp> getUserInfo(UserResetReq req) {
         UserExample userExample = new UserExample();
         UserExample.Criteria criteria = userExample.createCriteria();
         criteria.andIdEqualTo(req.getId());

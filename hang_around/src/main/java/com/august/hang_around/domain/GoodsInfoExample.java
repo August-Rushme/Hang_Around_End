@@ -115,62 +115,52 @@ public class GoodsInfoExample {
             return (Criteria) this;
         }
 
-        public Criteria andIdEqualTo(String value) {
+        public Criteria andIdEqualTo(Long value) {
             addCriterion("id =", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdNotEqualTo(String value) {
+        public Criteria andIdNotEqualTo(Long value) {
             addCriterion("id <>", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdGreaterThan(String value) {
+        public Criteria andIdGreaterThan(Long value) {
             addCriterion("id >", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdGreaterThanOrEqualTo(String value) {
+        public Criteria andIdGreaterThanOrEqualTo(Long value) {
             addCriterion("id >=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdLessThan(String value) {
+        public Criteria andIdLessThan(Long value) {
             addCriterion("id <", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdLessThanOrEqualTo(String value) {
+        public Criteria andIdLessThanOrEqualTo(Long value) {
             addCriterion("id <=", value, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdLike(String value) {
-            addCriterion("id like", value, "id");
-            return (Criteria) this;
-        }
-
-        public Criteria andIdNotLike(String value) {
-            addCriterion("id not like", value, "id");
-            return (Criteria) this;
-        }
-
-        public Criteria andIdIn(List<String> values) {
+        public Criteria andIdIn(List<Long> values) {
             addCriterion("id in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdNotIn(List<String> values) {
+        public Criteria andIdNotIn(List<Long> values) {
             addCriterion("id not in", values, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdBetween(String value1, String value2) {
+        public Criteria andIdBetween(Long value1, Long value2) {
             addCriterion("id between", value1, value2, "id");
             return (Criteria) this;
         }
 
-        public Criteria andIdNotBetween(String value1, String value2) {
+        public Criteria andIdNotBetween(Long value1, Long value2) {
             addCriterion("id not between", value1, value2, "id");
             return (Criteria) this;
         }
@@ -595,76 +585,6 @@ public class GoodsInfoExample {
             return (Criteria) this;
         }
 
-        public Criteria andImgSrcIsNull() {
-            addCriterion("img_src is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcIsNotNull() {
-            addCriterion("img_src is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcEqualTo(String value) {
-            addCriterion("img_src =", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcNotEqualTo(String value) {
-            addCriterion("img_src <>", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcGreaterThan(String value) {
-            addCriterion("img_src >", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcGreaterThanOrEqualTo(String value) {
-            addCriterion("img_src >=", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcLessThan(String value) {
-            addCriterion("img_src <", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcLessThanOrEqualTo(String value) {
-            addCriterion("img_src <=", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcLike(String value) {
-            addCriterion("img_src like", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcNotLike(String value) {
-            addCriterion("img_src not like", value, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcIn(List<String> values) {
-            addCriterion("img_src in", values, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcNotIn(List<String> values) {
-            addCriterion("img_src not in", values, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcBetween(String value1, String value2) {
-            addCriterion("img_src between", value1, value2, "imgSrc");
-            return (Criteria) this;
-        }
-
-        public Criteria andImgSrcNotBetween(String value1, String value2) {
-            addCriterion("img_src not between", value1, value2, "imgSrc");
-            return (Criteria) this;
-        }
-
         public Criteria andPriceIsNull() {
             addCriterion("price is null");
             return (Criteria) this;
@@ -792,6 +712,66 @@ public class GoodsInfoExample {
 
         public Criteria andRangeNotBetween(String value1, String value2) {
             addCriterion("`range` not between", value1, value2, "range");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidIsNull() {
+            addCriterion("`uid` is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidIsNotNull() {
+            addCriterion("`uid` is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidEqualTo(Long value) {
+            addCriterion("`uid` =", value, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidNotEqualTo(Long value) {
+            addCriterion("`uid` <>", value, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidGreaterThan(Long value) {
+            addCriterion("`uid` >", value, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidGreaterThanOrEqualTo(Long value) {
+            addCriterion("`uid` >=", value, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidLessThan(Long value) {
+            addCriterion("`uid` <", value, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidLessThanOrEqualTo(Long value) {
+            addCriterion("`uid` <=", value, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidIn(List<Long> values) {
+            addCriterion("`uid` in", values, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidNotIn(List<Long> values) {
+            addCriterion("`uid` not in", values, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidBetween(Long value1, Long value2) {
+            addCriterion("`uid` between", value1, value2, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andUidNotBetween(Long value1, Long value2) {
+            addCriterion("`uid` not between", value1, value2, "uid");
             return (Criteria) this;
         }
     }

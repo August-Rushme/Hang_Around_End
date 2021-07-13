@@ -1,18 +1,18 @@
 package com.august.hang_around.controller;
+
+import com.august.hang_around.domain.GoodsCollection;
+import com.august.hang_around.req.GoodsCollectionReq;
 import com.august.hang_around.req.GoodsInfoReq;
+import com.august.hang_around.req.GoodsManageInsertReq;
 import com.august.hang_around.req.PageReq;
-import com.august.hang_around.resp.CommonResp;
-import com.august.hang_around.resp.GoodsInfoResp;
-import com.august.hang_around.resp.GoodsSearchResp;
-import com.august.hang_around.resp.PageResp;
+import com.august.hang_around.resp.*;
 import com.august.hang_around.service.GoodsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -26,11 +26,76 @@ public class GoodsController {
     @Resource
     private GoodsService goodsService;
     /**
-     * 搜索商品
+     * 删除收藏
+     *
+     * @param id
+     * @return
+     */
+    @DeleteMapping("/collection/delete/{id}")
+    public CommonResp deleteCollection(@PathVariable String id) {
+        CommonResp resp = new CommonResp<>();
+        goodsService.deleteCollection(id);
+        resp.setMessage("删除成功");
+        return resp;
+    }
+
+    /**
+     * 搜索自己的收藏
+     *
+     * @param req
+     * @return
+     */
+    @GetMapping("/collection/search")
+    public CommonResp searchCollection(PageReq req) {
+        /**
+         * CommonResp这里的泛型是实际返回业务数据的类型，即返回data数据中的类型
+         */
+        CommonResp<PageResp<GoodsCollectionResp>> resp = new CommonResp<>();
+        PageResp<GoodsCollectionResp> list = goodsService.searchCollection(req);
+        resp.setData(list);
+        return resp;
+    }
+
+    /**
+     * 获取自己的收藏
+     *
+     * @param req
+     * @return
+     */
+    @GetMapping("/recollection")
+    public CommonResp getCollection(GoodsCollectionReq req) {
+        /**
+         * CommonResp这里的泛型是实际返回业务数据的类型，即返回data数据中的类型
+         */
+        CommonResp<PageResp<GoodsCollectionResp>> resp = new CommonResp<>();
+        PageResp<GoodsCollectionResp> list = goodsService.getGoodsCollection(req);
+        resp.setData(list);
+        return resp;
+    }
+
+    /**
+     * 收藏商品
+     *
+     * @return
+     */
+    @PostMapping("/collection")
+    public CommonResp collectionGoods(@RequestBody GoodsCollectionReq req) {
+        /**
+         * CommonResp这里的泛型是实际返回业务数据的类型，即返回data数据中的类型
+         */
+        CommonResp<GoodsCollectionResp> resp = new CommonResp<>();
+        goodsService.collectionGoods(req);
+        resp.setMessage("收藏成功");
+        return resp;
+    }
+
+    /**
+     * 获取商品的详细信息
+     *
      * @return
      */
     @GetMapping("/goodsInfoDesc")
-    public CommonResp goGoodsInfo(GoodsInfoReq req){
+    public CommonResp goGoodsInfo(GoodsInfoReq req) {
         /**
          * CommonResp这里的泛型是实际返回业务数据的类型，即返回data数据中的类型
          */
@@ -39,12 +104,14 @@ public class GoodsController {
         resp.setData(list);
         return resp;
     }
+
     /**
      * 搜索商品
+     *
      * @return
      */
     @GetMapping("/searchInfo")
-    public CommonResp searchInfo(PageReq req){
+    public CommonResp searchInfo(PageReq req) {
         /**
          * CommonResp这里的泛型是实际返回业务数据的类型，即返回data数据中的类型
          */
@@ -53,12 +120,14 @@ public class GoodsController {
         resp.setData(list);
         return resp;
     }
+
     /**
      * 获取商品的信息
+     *
      * @return
      */
     @GetMapping("/goodsInfo")
-    public CommonResp goodsInfo(PageReq req){
+    public CommonResp goodsInfo(PageReq req) {
         /**
          * CommonResp这里的泛型是实际返回业务数据的类型，即返回data数据中的类型
          */

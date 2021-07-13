@@ -20,11 +20,11 @@ public class GoodsSearchResp {
 
     private String others;
 
-    private String imgSrc;
-
     private BigDecimal price;
 
     private String range;
+
+    private String imgSrc;
 
     public String getId() {
         return id;
@@ -82,14 +82,6 @@ public class GoodsSearchResp {
         this.others = others;
     }
 
-    public String getImgSrc() {
-        return imgSrc;
-    }
-
-    public void setImgSrc(String imgSrc) {
-        this.imgSrc = imgSrc;
-    }
-
     public BigDecimal getPrice() {
         return price;
     }
@@ -106,6 +98,14 @@ public class GoodsSearchResp {
         this.range = range;
     }
 
+    public String getImgSrc() {
+        return imgSrc;
+    }
+
+    public void setImgSrc(String imgSrc) {
+        this.imgSrc = imgSrc;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -119,9 +119,9 @@ public class GoodsSearchResp {
         sb.append(", old=").append(old);
         sb.append(", use=").append(use);
         sb.append(", others=").append(others);
-        sb.append(", imgSrc=").append(imgSrc);
         sb.append(", price=").append(price);
         sb.append(", range=").append(range);
+        sb.append(", imgSrc=").append(imgSrc);
         sb.append("]");
         return sb.toString();
     }

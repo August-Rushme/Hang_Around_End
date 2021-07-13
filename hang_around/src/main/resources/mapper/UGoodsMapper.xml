@@ -5,9 +5,13 @@
     <id column="gid" jdbcType="BIGINT" property="gid" />
     <result column="gname" jdbcType="VARCHAR" property="gname" />
     <result column="gtype" jdbcType="VARCHAR" property="gtype" />
-    <result column="gprice" jdbcType="VARCHAR" property="gprice" />
+    <result column="gprice" jdbcType="DECIMAL" property="gprice" />
     <result column="gstock" jdbcType="VARCHAR" property="gstock" />
-    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="other" jdbcType="VARCHAR" property="other" />
+    <result column="uid" jdbcType="BIGINT" property="uid" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.august.hang_around.domain.UGoods">
+    <result column="img_src" jdbcType="LONGVARCHAR" property="imgSrc" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -68,8 +72,27 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    gid, gname, gtype, gprice, gstock, `uid`
+    gid, gname, gtype, gprice, gstock, other, `uid`
   </sql>
+  <sql id="Blob_Column_List">
+    img_src
+  </sql>
+  <select id="selectByExampleWithBLOBs" parameterType="com.august.hang_around.domain.UGoodsExample" resultMap="ResultMapWithBLOBs">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from u_goods
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
   <select id="selectByExample" parameterType="com.august.hang_around.domain.UGoodsExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
@@ -84,9 +107,11 @@
       order by ${orderByClause}
     </if>
   </select>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="ResultMapWithBLOBs">
     select 
     <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
     from u_goods
     where gid = #{gid,jdbcType=BIGINT}
   </select>
@@ -102,11 +127,11 @@
   </delete>
   <insert id="insert" parameterType="com.august.hang_around.domain.UGoods">
     insert into u_goods (gid, gname, gtype, 
-      gprice, gstock, `uid`
-      )
+      gprice, gstock, other, 
+      `uid`, img_src)
     values (#{gid,jdbcType=BIGINT}, #{gname,jdbcType=VARCHAR}, #{gtype,jdbcType=VARCHAR}, 
-      #{gprice,jdbcType=VARCHAR}, #{gstock,jdbcType=VARCHAR}, #{uid,jdbcType=INTEGER}
-      )
+      #{gprice,jdbcType=DECIMAL}, #{gstock,jdbcType=VARCHAR}, #{other,jdbcType=VARCHAR}, 
+      #{uid,jdbcType=BIGINT}, #{imgSrc,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.august.hang_around.domain.UGoods">
     insert into u_goods
@@ -126,8 +151,14 @@
       <if test="gstock != null">
         gstock,
       </if>
+      <if test="other != null">
+        other,
+      </if>
       <if test="uid != null">
         `uid`,
+      </if>
+      <if test="imgSrc != null">
+        img_src,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -141,13 +172,19 @@
         #{gtype,jdbcType=VARCHAR},
       </if>
       <if test="gprice != null">
-        #{gprice,jdbcType=VARCHAR},
+        #{gprice,jdbcType=DECIMAL},
       </if>
       <if test="gstock != null">
         #{gstock,jdbcType=VARCHAR},
       </if>
+      <if test="other != null">
+        #{other,jdbcType=VARCHAR},
+      </if>
       <if test="uid != null">
-        #{uid,jdbcType=INTEGER},
+        #{uid,jdbcType=BIGINT},
+      </if>
+      <if test="imgSrc != null">
+        #{imgSrc,jdbcType=LONGVARCHAR},
       </if>
     </trim>
   </insert>
@@ -170,15 +207,35 @@
         gtype = #{record.gtype,jdbcType=VARCHAR},
       </if>
       <if test="record.gprice != null">
-        gprice = #{record.gprice,jdbcType=VARCHAR},
+        gprice = #{record.gprice,jdbcType=DECIMAL},
       </if>
       <if test="record.gstock != null">
         gstock = #{record.gstock,jdbcType=VARCHAR},
       </if>
+      <if test="record.other != null">
+        other = #{record.other,jdbcType=VARCHAR},
+      </if>
       <if test="record.uid != null">
-        `uid` = #{record.uid,jdbcType=INTEGER},
+        `uid` = #{record.uid,jdbcType=BIGINT},
+      </if>
+      <if test="record.imgSrc != null">
+        img_src = #{record.imgSrc,jdbcType=LONGVARCHAR},
       </if>
     </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map">
+    update u_goods
+    set gid = #{record.gid,jdbcType=BIGINT},
+      gname = #{record.gname,jdbcType=VARCHAR},
+      gtype = #{record.gtype,jdbcType=VARCHAR},
+      gprice = #{record.gprice,jdbcType=DECIMAL},
+      gstock = #{record.gstock,jdbcType=VARCHAR},
+      other = #{record.other,jdbcType=VARCHAR},
+      `uid` = #{record.uid,jdbcType=BIGINT},
+      img_src = #{record.imgSrc,jdbcType=LONGVARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -188,9 +245,10 @@
     set gid = #{record.gid,jdbcType=BIGINT},
       gname = #{record.gname,jdbcType=VARCHAR},
       gtype = #{record.gtype,jdbcType=VARCHAR},
-      gprice = #{record.gprice,jdbcType=VARCHAR},
+      gprice = #{record.gprice,jdbcType=DECIMAL},
       gstock = #{record.gstock,jdbcType=VARCHAR},
-      `uid` = #{record.uid,jdbcType=INTEGER}
+      other = #{record.other,jdbcType=VARCHAR},
+      `uid` = #{record.uid,jdbcType=BIGINT}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -205,24 +263,42 @@
         gtype = #{gtype,jdbcType=VARCHAR},
       </if>
       <if test="gprice != null">
-        gprice = #{gprice,jdbcType=VARCHAR},
+        gprice = #{gprice,jdbcType=DECIMAL},
       </if>
       <if test="gstock != null">
         gstock = #{gstock,jdbcType=VARCHAR},
       </if>
+      <if test="other != null">
+        other = #{other,jdbcType=VARCHAR},
+      </if>
       <if test="uid != null">
-        `uid` = #{uid,jdbcType=INTEGER},
+        `uid` = #{uid,jdbcType=BIGINT},
+      </if>
+      <if test="imgSrc != null">
+        img_src = #{imgSrc,jdbcType=LONGVARCHAR},
       </if>
     </set>
+    where gid = #{gid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.august.hang_around.domain.UGoods">
+    update u_goods
+    set gname = #{gname,jdbcType=VARCHAR},
+      gtype = #{gtype,jdbcType=VARCHAR},
+      gprice = #{gprice,jdbcType=DECIMAL},
+      gstock = #{gstock,jdbcType=VARCHAR},
+      other = #{other,jdbcType=VARCHAR},
+      `uid` = #{uid,jdbcType=BIGINT},
+      img_src = #{imgSrc,jdbcType=LONGVARCHAR}
     where gid = #{gid,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.august.hang_around.domain.UGoods">
     update u_goods
     set gname = #{gname,jdbcType=VARCHAR},
       gtype = #{gtype,jdbcType=VARCHAR},
-      gprice = #{gprice,jdbcType=VARCHAR},
+      gprice = #{gprice,jdbcType=DECIMAL},
       gstock = #{gstock,jdbcType=VARCHAR},
-      `uid` = #{uid,jdbcType=INTEGER}
+      other = #{other,jdbcType=VARCHAR},
+      `uid` = #{uid,jdbcType=BIGINT}
     where gid = #{gid,jdbcType=BIGINT}
   </update>
 </mapper>
